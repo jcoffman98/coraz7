@@ -795,14 +795,14 @@ CONFIG_pciutils=y
 #
 # autoconf 
 #
-# CONFIG_autoconf is not set
+CONFIG_autoconf=y
 # CONFIG_autoconf-dev is not set
 # CONFIG_autoconf-dbg is not set
 
 #
 # automake 
 #
-# CONFIG_automake is not set
+CONFIG_automake=y
 # CONFIG_automake-dev is not set
 # CONFIG_automake-dbg is not set
 
@@ -913,7 +913,7 @@ CONFIG_pciutils=y
 #
 # make 
 #
-# CONFIG_make is not set
+CONFIG_make=y
 # CONFIG_make-dbg is not set
 # CONFIG_make-dev is not set
 
@@ -944,7 +944,7 @@ CONFIG_pciutils=y
 #
 # python 
 #
-# CONFIG_python is not set
+CONFIG_python=y
 # CONFIG_python-dbg is not set
 # CONFIG_python-mailbox is not set
 # CONFIG_python-resource is not set
@@ -1251,9 +1251,9 @@ CONFIG_run-postinsts=y
 #
 # ffmpeg 
 #
-# CONFIG_ffmpeg is not set
+CONFIG_ffmpeg=y
 # CONFIG_ffmpeg-dbg is not set
-# CONFIG_ffmpeg-dev is not set
+CONFIG_ffmpeg-dev=y
 
 #
 # flac 
@@ -1275,9 +1275,9 @@ CONFIG_run-postinsts=y
 #
 # freetype 
 #
-# CONFIG_freetype is not set
+CONFIG_freetype=y
 # CONFIG_freetype-dbg is not set
-# CONFIG_freetype-dev is not set
+CONFIG_freetype-dev=y
 
 #
 # gdbm 
@@ -1510,11 +1510,11 @@ CONFIG_run-postinsts=y
 #
 # libjpeg-turbo 
 #
-# CONFIG_libjpeg-turbo is not set
+CONFIG_libjpeg-turbo=y
 # CONFIG_libturbojpeg is not set
-# CONFIG_jpeg-tools is not set
+CONFIG_jpeg-tools=y
 # CONFIG_libjpeg-turbo-dbg is not set
-# CONFIG_libjpeg-turbo-dev is not set
+CONFIG_libjpeg-turbo-dev=y
 
 #
 # libmetal 
@@ -1576,8 +1576,8 @@ CONFIG_run-postinsts=y
 #
 # libpng 
 #
-# CONFIG_libpng is not set
-# CONFIG_libpng-dev is not set
+CONFIG_libpng=y
+CONFIG_libpng-dev=y
 # CONFIG_libpng-dbg is not set
 # CONFIG_libpng-tools is not set
 
@@ -1627,7 +1627,7 @@ CONFIG_run-postinsts=y
 #
 # libtool 
 #
-# CONFIG_libtool is not set
+CONFIG_libtool=y
 # CONFIG_libtool-dbg is not set
 # CONFIG_libltdl is not set
 # CONFIG_libtool-dev is not set
@@ -2247,14 +2247,14 @@ CONFIG_udev-extraconf=y
 #
 # fbset 
 #
-# CONFIG_fbset is not set
+CONFIG_fbset=y
 # CONFIG_fbset-dbg is not set
 # CONFIG_fbset-dev is not set
 
 #
 # fbset-modes 
 #
-# CONFIG_fbset-modes is not set
+CONFIG_fbset-modes=y
 # CONFIG_fbset-modes-dev is not set
 # CONFIG_fbset-modes-dbg is not set
 
@@ -2309,7 +2309,7 @@ CONFIG_glib-2.0-dev=y
 #
 # glibc 
 #
-# CONFIG_glibc is not set
+CONFIG_glibc=y
 # CONFIG_glibc-dev is not set
 # CONFIG_glibc-dbg is not set
 # CONFIG_ldd is not set
