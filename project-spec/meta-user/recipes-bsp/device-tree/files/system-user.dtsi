@@ -17,7 +17,30 @@
 		view-port = <0x0170>;
 		drv-vbus;
 	};
+
+	rotary@0 {
+		compatible = "rotary-encoder";
+		gpios = <&gpio0 58 0>, <&gpio0 59 0>;
+		linux,axis = <0>; /* REL_X */
+		rotary-encoder,encoding = "gray";
+		rotary-encoder,relative-axis;
+	};
+
+	gpio-keys {
+		compatible = "gpio-keys";
+		autorepeat;
+		push_down {
+			label = "push_down";
+			gpios = <&gpio0 60 GPIO_ACTIVE_HIGH>;
+			linux,code = <KEY_DOWN>;
+			gpio-key,wakeup;
+			autorepeat;
+		};
+	};
 };
+
+
+
 
 &gem0 {
 	phy-handle = <&ethernet_phy>;
